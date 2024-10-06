@@ -1,0 +1,45 @@
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device, initial-scale=1.0"> 
+		<title>Ong Visao de Aguia</title>
+		
+	<head>
+	
+	<body>
+		<img src="logo.jpg"width="300px" alt="Logo"/>
+		<h2>Por um mundo melhor.</h2>
+		<br>
+		
+		<section>
+			<h4>Quem somos:</h4>
+			<p>O visão de aguia tem o intuito de ajudar comunidades carente que estão em situação de risco, falta de alimento<br> e auxilio de atividades
+				profissionalizantes.		</p>
+			<img src= "img.1.jpg"width="500px" alt="Doacao">
+		</section>
+		
+		<section>
+			<h4>Atividades jovem: <h4/><br>
+			<p>Nossas atividades jovenis é um dos pontos forte da Ong, o intuito é adminitrar teatros, atividades de intereção com a comunidade.</p>
+			<img src= "att.jpg"width="200px alt= "atividades"/><img src= "capa.jpg"width="220px alt= "att2"><br>
+		</section>
+		
+		<section>
+			<h5>Fale conosco</h5>
+			<a href="https://www.facebook.com/seu-perfil"><img src="facebook-svgrepo-com.svg"width="50px"></a>
+			
+			<p>Quer se juntar a nós? Mande um email para nós.Esperamos pela que possa ser mais uma aguia.<p>
+			<div>
+				<label>Nome:</label>
+				<input type="" placeholder="Nome"><br>
+				<label>Email:</label>
+				<input type="text" placeholder="Email">
+			</div>
+			
+			<button>Enviar...</button>
+			
+		<section>
+		
+	</body>
+	
+<html>

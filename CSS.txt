@@ -1,0 +1,74 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o título */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Seções */
+section {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* Estilo dos títulos das seções */
+h4, h5 {
+    color: #2980b9;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilo dos inputs e botão */
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a img {
+    vertical-align: middle;
+}
