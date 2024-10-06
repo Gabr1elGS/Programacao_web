@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Alteração de Cores</title>
+
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<h1>Alteração de Cores</h1>
+<button id="yellowButton">Amarelo</button>
+<button id="orangeButton">Laranja</button>
+<button id="brownButton">Marrom</button>
+<div id="colorBox" style="width: 200px; height: 100px;
+border: 1px solid black; margin-top: 20px;">
+Meu texto
+</div>
+<script>
+	$("#yellowButton").click(function() {
+		$('#colorBox').css ('background-color', 'yellow' );
+	
+	});
+	$("#orangeButton").click(function() {
+		$('#colorBox').css ('color', 'orange' );
+	
+	});
+	$("#brownButton").click(function() {
+		$('#colorBox').css ('border', '2px solid brown' );
+	
+	});
+</script>
+</body>
+</html>
