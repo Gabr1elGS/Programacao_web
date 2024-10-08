@@ -1,0 +1,15 @@
+Exercícios – Unidade 3
+Instruções: Enviar as resoluções (códigos) em PDF e anexar os printscreens (as capturas de tela)
+do navegador após a execução do teste concluído com sucesso.
+1) Crie uma classe imovel em PHP com os seguintes atributos: tipo (Apartamento, Casa, Terreno,
+etc), CEP, número, complemento, Número de Quartos, Número de banheiros, área construída
+em m2 e valor do imóvel. Todos os campos deverão ser privados e para acessar os dados deverão
+ser implementados os métodos GETs e SETs para os atributos. Deverá também possuir o método
+previsaoIPTU que deverá retornar o resultado da previsão do IPTU que é 5% do valor do imóvel
+para imóveis com até 2 banheiros e 7% para um número superior a 2.
+2) Construa um formulário em PHP para cadastro de uma imovel que possua como campos os
+atributos da classe imovel (do exercício 1) e após a submissão do formulário deverá ser inserido
+os dados em um objeto do tipo imovel e mostrado os dados na tela. Deverá também coletar o
+endereço do imovel (rua, bairro, cidade e estado) através de alguma API (por exemplo, ViaCEP)
+para ser exibido. Também deverá ser mostrado o valor de previsão do IPTU calculado através do
+método previsaoIPTU.
